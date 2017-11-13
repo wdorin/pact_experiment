@@ -1,0 +1,198 @@
+{
+    "provider": {
+        "name": "playlist extender"
+    },
+    "consumer": {
+        "name": "homer"
+    },
+    "interactions": [
+        {
+            "description": "a request to extend a playlist",
+            "request": {
+                "method": "POST",
+                "path": "/recommendp",
+                "body": {
+                	"type":"KPE",
+                	"numResults":30,
+                	"family":"recommendable-spotify",
+                	"region":"SE",
+                	"trackIDs":[
+                		"5jOaWGURTGf128H5Ck16yX",
+                		"2bt04YlMnqiwA3T6O9UqBO",
+                		"3jD8mKsaq5iDmLhRGx9hLJ",
+                		"4kOy7M6eT5kYJCZxh0c6Lh",
+                		"5ZNth4o3YvTIMs9KWltgFh",
+                		"4ParopyuZ1BegcF9nWgnbe",
+                		"6oRbm1KOqskLTFc1rvGi5F",
+                		"4tp6vyJpXa0Vr73IYerX28",
+                		"3i1tl2s2113hLDInAEuzJD",
+                		"4ry6oqlwdsooYtniYJFkt5",
+                		"24Fn8UTT8Glox4QxEXjykO",
+                		"68oUQRwGJGExtkpaSvSbgb",
+                		"2kpMuwsPGqKJ0wWwP4z55U",
+                		"1jQOkDI456dkXWCKdY85mj",
+                		"1JqInwYzD5BNmTUkn8KxS0",
+                		"7xiXaJlz5cTKL168OBVzun",
+                		"2AS1h6NKoBzCoxlnmddOjI",
+                		"2fkPXXnPh0jhtwcTxLobqd",
+                		"5KMXu2Q4wpV4fjVrkw1Eoa",
+                		"1hEOebOfDDORx6otmMjQAw",
+                		"0JhpYE9xA3UpSFrmXTZyIF",
+                		"3x5IM9VEpsFLhkzy9YT2F0",
+                		"2pLd3HDEudPVQYdQpdB8BD",
+                		"7EkzSJvGsBux0QKr4fkjC5",
+                		"3EesKMuYVmL1a1JkPgU8WN",
+                		"1amSa5xo79zINsgrpNlNge",
+                		"42L09Nk68ov5YAGM007klW",
+                		"2VuQyUR0ZbSsefYESWN6L1",
+                		"4TZyndui2ZXd7Nw57kLFib",
+                		"5QH3pNXpDzSIMziqX9lL1l",
+                		"2LROxbCF0enMTjSEA8EeZl",
+                		"7IVD2SNPE1lZenlsOZZCWd",
+                		"49pZEyqCtOShtAdduKbGM6",
+                		"6X2JdCAjdTmuYWQnmN8yUZ",
+                		"1300POeOaj8qho30FRHjgf",
+                		"3SV4aVM7hlK9GuAHAfym2c"],
+                	"artistIDs":[
+                		"1KsASRNugxU85T0u6zSg32"]
+                }
+            },
+            "response": {
+                "status": 200,
+                "headers": {
+                    "Content-Type": "application/json"
+                },
+                "body": {
+                	"recommendedPlaylists": [
+                		{
+                			"artistCount": 2,
+                			"artistDiversity": 4,
+                			"artists": [],
+                			"mau": 351,
+                			"streams": 3510,
+                			"lastTouched": 1507624619795,
+                			"key": "spotify:user:spotify:playlist:37i9dQZF1DWUQY3ZtiyEfd",
+                			"trackCount": 50,
+                			"official": true,
+                			"name": "This is: Björk",
+                			"score": 3.1980627,
+                			"tags": [
+                				"moments-agnostic"
+                			],
+                			"tracks": [],
+      						"followers": 1954,
+      						"availableWorldwide": true,
+      						"regions": [
+      							"is",
+      							"se",
+      							"gb",
+      							"worldwide"
+      						],
+      						"families": [
+      							"official",
+      							"editorial",
+      							"recommendable"
+      						]
+      					},
+      					{
+      						"artistCount": 42,
+      						"artistDiversity": 93.33333333333333,
+      						"artists": [],
+      						"mau": 1119,
+      						"streams": 11190,
+      						"lastTouched": 1482486375000,
+      						"key": "spotify:user:spotify:playlist:37i9dQZF1DX7gYL3yFjlzF",
+      						"trackCount": 45,
+  							"official": true,
+      						"name": "Hannas källare",
+      						"score": 0.35477388,
+      						"tags": [
+      													"moments-agnostic"
+      						],
+      						"tracks": [],
+      						"followers": 1255,
+    						"availableWorldwide": false,
+      						"regions": [
+      							"se"
+      						],
+      						"families": [
+      							"official",
+      							"editorial",
+      							"recommendable"
+      						]
+    					}
+  					],
+  				"request": {
+    				"type": "KPE",
+    				"title": "",
+    				"trackIDs": [
+      					"0JhpYE9xA3UpSFrmXTZyIF",
+      					"1300POeOaj8qho30FRHjgf",
+      					"1JqInwYzD5BNmTUkn8KxS0",
+      					"1amSa5xo79zINsgrpNlNge",
+      					"754cLTbgHNJDIKDxjDsMkI",
+    					"1jQOkDI456dkXWCKdY85mj",
+      					"24Fn8UTT8Glox4QxEXjykO",
+      					"2AS1h6NKoBzCoxlnmddOjI",
+      					"2LROxbCF0enMTjSEA8EeZl",
+      					"3ajG91JkP3bAaLrDjywKNj",
+      					"2bt04YlMnqiwA3T6O9UqBO",
+      					"2fkPXXnPh0jhtwcTxLobqd",
+      					"2kpMuwsPGqKJ0wWwP4z55U",
+      					"2pLd3HDEudPVQYdQpdB8BD",
+      					"3EesKMuYVmL1a1JkPgU8WN",
+      					"0BPLPp9Fd1zD7qYE2hutrO",
+      					"3i1tl2s2113hLDInAEuzJD",
+      					"3jD8mKsaq5iDmLhRGx9hLJ",
+      					"3x5IM9VEpsFLhkzy9YT2F0",
+      					"3JIsIKL3zd51z76i1VlAe6",
+      					"49pZEyqCtOShtAdduKbGM6",
+      					"785Qya5mtMUwBQtuypVqrx",
+      					"1p751KmFKFQGHiIzXBg81C",
+      					"4kOy7M6eT5kYJCZxh0c6Lh",
+      					"5OnyZ56HLhrWOXdzeETqLk",
+      					"4tp6vyJpXa0Vr73IYerX28",
+      					"5KMXu2Q4wpV4fjVrkw1Eoa",
+      					"5QH3pNXpDzSIMziqX9lL1l",
+      					"5ZNth4o3YvTIMs9KWltgFh",
+      					"5jOaWGURTGf128H5Ck16yX",
+      					"68oUQRwGJGExtkpaSvSbgb",
+      					"6X2JdCAjdTmuYWQnmN8yUZ",
+      					"6oRbm1KOqskLTFc1rvGi5F",
+      					"7EkzSJvGsBux0QKr4fkjC5",
+      					"2sV2XL7hMfkL4CkilWqdJg",
+      					"7xiXaJlz5cTKL168OBVzun"
+    				],
+    				"artistIDs": [
+      					"1KsASRNugxU85T0u6zSg32"
+    				],
+    				"trackSkipIDs": [],
+    				"playlistSkipIDs": [],
+    				"artistSkipIDs": [],
+    				"region": "SE",
+    				"numResults": 30,
+    				"condensed": false,
+   					"decoration": true,
+    				"family": "recommendable-spotify",
+    				"familyList": [
+      							"recommendable-spotify"
+    				]
+  				},
+  				"details": {
+    				"similarPlaylistsFound": 2,
+    				"getSimilarPlaylistsTime": 4,
+    				"prepopulateAndFilter": 0,
+    				"totalTime": 7
+  				}
+            }
+        }
+    ],
+    "metadata": {
+        "pact-specification": {
+            "version": "2.0.0"
+        },
+        "pact-jvm": {
+            "version": "3.4.0"
+        }
+    }
+}
